@@ -8,7 +8,6 @@ const ImageGrid = (props: any) => {
           const assetIndex = index + 1
           const assetIndex0 = assetIndex <= 9 ? `0${assetIndex}` : assetIndex
           const assetSource = `/assets/${assetIndex0}.${GALLERY_IMAGES_FORMAT}`
-          console.log("assetSource", assetSource)
           return (
             <div
               className="h-min w-full rounded-xl border border-gray-200 bg-red-400"
