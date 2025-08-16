@@ -1,4 +1,5 @@
 import { GALLERY_IMAGES_FORMAT } from "../lib/constants"
+/* eslint-disable  @typescript-eslint/no-explicit-any */
 
 const ImageGrid = (props: any) => {
   return (
