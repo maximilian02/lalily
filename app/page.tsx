@@ -10,7 +10,7 @@ export default function Home() {
   const [imgList, setImgList] = useState(frag)
   const [lastImage, setLastImage] = useState(PHOTOS_STEP)
   const viewMoreHandler = () => {
-    let sum = lastImage + PHOTOS_STEP
+    const sum = lastImage + PHOTOS_STEP
     setLastImage(sum)
 
     const addImages = shuffleArray([...images]).slice(lastImage, sum)
